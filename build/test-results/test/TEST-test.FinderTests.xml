@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.FinderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-28T00:41:29" hostname="C02Y308YJG5J" time="0.009">
+  <properties/>
+  <testcase name="Returns_Furthest_Two_For_Four_People" classname="test.FinderTests" time="0.008"/>
+  <testcase name="Returns_Null_When_Finder_Is_Given_Empty_List" classname="test.FinderTests" time="0.0"/>
+  <testcase name="Returns_Furthest_Two_For_Two_People" classname="test.FinderTests" time="0.0"/>
+  <testcase name="Returns_Null_When_Finder_Is_Given_One_Person" classname="test.FinderTests" time="0.0"/>
+  <testcase name="Returns_Closest_Two_For_Two_People" classname="test.FinderTests" time="0.0"/>
+  <testcase name="Returns_Closest_Two_For_Four_People" classname="test.FinderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
