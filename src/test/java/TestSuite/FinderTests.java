@@ -1,19 +1,18 @@
 package TestSuite;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
+import Algorithm.DifferenceInAgeHolder;
+import Algorithm.Finder;
+import Algorithm.Options;
+import Algorithm.Person;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-
 import org.junit.Before;
 import org.junit.Test;
-
-import Algorithm.DifferenceInAgeCalculator;
-import Algorithm.Options;
-import Algorithm.Finder;
-import Algorithm.Person;
 
 public class FinderTests {
 
@@ -24,13 +23,9 @@ public class FinderTests {
 
   @Before
   public void initialiseTests() {
-    sue.setName("Sue");
     sue.setBirthDate(new Date(50, Calendar.JANUARY, 1));
-    greg.setName("Greg");
     greg.setBirthDate(new Date(52, Calendar.JUNE, 1));
-    sarah.setName("Sarah");
     sarah.setBirthDate(new Date(82, Calendar.JANUARY, 1));
-    mike.setName("Mike");
     mike.setBirthDate(new Date(79, Calendar.JANUARY, 1));
   }
 
@@ -39,7 +34,7 @@ public class FinderTests {
     List<Person> list = new ArrayList<>();
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsOlder);
+    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
     assertNull(result.personOne);
     assertNull(result.personTwo);
   }
@@ -51,7 +46,7 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsOlder);
+    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
 
     assertNull(result.personOne);
     assertNull(result.personTwo);
@@ -64,7 +59,7 @@ public class FinderTests {
     list.add(greg);
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsOlder);
+    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(greg, result.personTwo);
@@ -78,7 +73,7 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsYounger);
+    DifferenceInAgeHolder result = finder.Find(Options.findFurthestGap);
 
     assertEquals(greg, result.personOne);
     assertEquals(mike, result.personTwo);
@@ -93,7 +88,7 @@ public class FinderTests {
     list.add(greg);
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsYounger);
+    DifferenceInAgeHolder result = finder.Find(Options.findFurthestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(sarah, result.personTwo);
@@ -109,10 +104,9 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeCalculator result = finder.Find(Options.personIsOlder);
+    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(greg, result.personTwo);
   }
-
 }

@@ -1,5 +1,5 @@
 package Algorithm;
-public class DifferenceInAgeCalculator {
+public class DifferenceInAgeHolder {
   public Person personOne;
   public Person personTwo;
   long differenceInAge;
