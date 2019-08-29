@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Predicate;
-import org.graalvm.compiler.nodes.calc.IntegerDivRemNode.Op;
 
 public class Finder {
 
@@ -22,10 +20,13 @@ public class Finder {
     Map<Options, Boolean> test = new HashMap<>();
 
     for (DifferenceInAgeHolder currentPerson : listOfAgeDifferences) {
-      test.put(Options.findFurthestGap, currentPerson.differenceInAge < oldestPersonInList.differenceInAge);
-      test.put(Options.findNearestGap, currentPerson.differenceInAge > oldestPersonInList.differenceInAge);
-      if (!test.get(possibleOptions))
+      test.put(Options.findFurthestGap,
+          currentPerson.differenceInAge < oldestPersonInList.differenceInAge);
+      test.put(Options.findNearestGap,
+          currentPerson.differenceInAge > oldestPersonInList.differenceInAge);
+      if (!test.get(possibleOptions)) {
         oldestPersonInList = currentPerson;
+      }
     }
     return oldestPersonInList;
   }
@@ -58,10 +59,6 @@ public class Finder {
       }
     }
 
-    if (listOfAgeDifferences.size() < 1) {
-      return new DifferenceInAgeHolder();
-    }
-
-    return test(possibleOptions, listOfAgeDifferences);
+    return listOfAgeDifferences.size() < 1 ? new DifferenceInAgeHolder() : test(possibleOptions, listOfAgeDifferences);
   }
 }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bc71547-06e3-4cf0-baee-0cf1db508020" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +30,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="179">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Options.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="84">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -46,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="359">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1079#1080#0" expanded="true" />
@@ -61,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="23" />
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -69,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="231">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/test/java/test/FinderTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" />
       </list>
     </option>
@@ -321,17 +326,11 @@
       <workItem from="1566968922771" duration="2151000" />
       <workItem from="1566971395456" duration="232000" />
       <workItem from="1567035309534" duration="55000" />
-      <workItem from="1567036123919" duration="2536000" />
+      <workItem from="1567036123919" duration="3182000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FinderTests_Returns_Null_When_Finder_Is_Given_Empty_List - 2019.08.28 at 15h 52m 33s.xml">
-      <configuration name="FinderTests.Returns_Null_When_Finder_Is_Given_Empty_List" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FinderTests - 2019.08.29 at 09h 35m 12s.xml">
-      <configuration name="FinderTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FinderTests - 2019.08.29 at 09h 35m 24s.xml">
       <configuration name="FinderTests" configurationId="JUnit" />
     </history-entry>
@@ -356,9 +355,15 @@
     <history-entry file="FinderTests - 2019.08.29 at 10h 38m 32s.xml">
       <configuration name="FinderTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FinderTests - 2019.08.29 at 10h 39m 56s.xml">
+      <configuration name="FinderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinderTests - 2019.08.29 at 10h 48m 52s.xml">
+      <configuration name="FinderTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9178000" />
+    <option name="totallyTimeSpent" value="9824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,38 +420,41 @@
     <SUITE FILE_PATH="coverage/Refactoring$FinderTests.ic" NAME="FinderTests Coverage Results" MODIFIED="1566969275151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="231">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Options.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="84">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="179">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="23" />
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="359">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
