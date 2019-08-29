@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bc71547-06e3-4cf0-baee-0cf1db508020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithm/DifferenceInAgeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithm/DifferenceInAgeCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithm/Finder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithm/Finder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithm/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithm/Finder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithm/Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithm/Options.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithm/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithm/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/FinderTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.FinderTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.FinderTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite/FinderTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -75,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+            <state relative-caret-position="360">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1079#1080#0" expanded="true" />
@@ -98,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="252">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -350,14 +321,11 @@
       <workItem from="1566968922771" duration="2151000" />
       <workItem from="1566971395456" duration="232000" />
       <workItem from="1567035309534" duration="55000" />
-      <workItem from="1567036123919" duration="2452000" />
+      <workItem from="1567036123919" duration="2536000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FinderTests - 2019.08.28 at 15h 51m 51s.xml">
-      <configuration name="FinderTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FinderTests_Returns_Null_When_Finder_Is_Given_Empty_List - 2019.08.28 at 15h 52m 33s.xml">
       <configuration name="FinderTests.Returns_Null_When_Finder_Is_Given_Empty_List" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -385,9 +353,12 @@
     <history-entry file="FinderTests - 2019.08.29 at 10h 37m 18s.xml">
       <configuration name="FinderTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FinderTests - 2019.08.29 at 10h 38m 32s.xml">
+      <configuration name="FinderTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9094000" />
+    <option name="totallyTimeSpent" value="9178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="252">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -474,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        <state relative-caret-position="360">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
