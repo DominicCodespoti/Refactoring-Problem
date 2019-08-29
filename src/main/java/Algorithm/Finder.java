@@ -9,48 +9,48 @@ public class Finder {
 
   private final List<Person> listOfPersons;
 
-  private DifferenceInAgeHolder test(Options possibleOptions,
-      List<DifferenceInAgeHolder> listOfAgeDifferences) {
-    DifferenceInAgeHolder oldestPersonInList = listOfAgeDifferences.get(0);
+  private PairOfPersons findBiggestOrSmallestAgeGap(Options findClosestPair,
+      List<PairOfPersons> listOfAgeDifferences) {
+    PairOfPersons closestOrFurtherestPair = listOfAgeDifferences.get(0);
 
-    Map<Options, Boolean> test = new HashMap<>();
+    Map<Options, Boolean> conditionMap = new HashMap<>();
 
-    for (DifferenceInAgeHolder currentPerson : listOfAgeDifferences) {
-      test.put(Options.findFurthestGap,
-          currentPerson.differenceInAge < oldestPersonInList.differenceInAge);
-      test.put(Options.findNearestGap,
-          currentPerson.differenceInAge > oldestPersonInList.differenceInAge);
-      if (!test.get(possibleOptions)) {
-        oldestPersonInList = currentPerson;
+    for (PairOfPersons currentPair : listOfAgeDifferences) {
+      conditionMap.put(Options.findFurthestGap,
+          currentPair.differenceInAge < closestOrFurtherestPair.differenceInAge);
+      conditionMap.put(Options.findClearestGap,
+          currentPair.differenceInAge > closestOrFurtherestPair.differenceInAge);
+      if (!conditionMap.get(findClosestPair)) {
+        closestOrFurtherestPair = currentPair;
       }
     }
-    return oldestPersonInList;
+    return closestOrFurtherestPair;
   }
 
-  private DifferenceInAgeHolder listAdder(DifferenceInAgeHolder differenceInAgeCalculator) {
-    differenceInAgeCalculator.differenceInAge =
-        differenceInAgeCalculator.personTwo.getBirthDateTime()
-            - differenceInAgeCalculator.personOne.getBirthDateTime();
+  private PairOfPersons addPairToList(PairOfPersons pairOfPersons) {
+    pairOfPersons.differenceInAge =
+        pairOfPersons.personTwo.getBirthDateTime()
+            - pairOfPersons.personOne.getBirthDateTime();
 
-    return differenceInAgeCalculator;
+    return pairOfPersons;
   }
 
   public Finder(List<Person> personList) {
     listOfPersons = personList;
   }
 
-  public DifferenceInAgeHolder Find(Options possibleOptions) {
-    List<DifferenceInAgeHolder> listOfAgeDifferences = new ArrayList<>();
+  public PairOfPersons Find(Options possibleOptions) {
+    List<PairOfPersons> listOfPairsOfPersons = new ArrayList<>();
 
     for (int I = 0; I < listOfPersons.size() - 1; I++) {
       for (int J = I + 1; J < listOfPersons.size(); J++) {
-        DifferenceInAgeHolder differenceInAgeCalculator = new DifferenceInAgeHolder(
+        PairOfPersons differenceInAgeCalculator = new PairOfPersons(
             listOfPersons.get(I), listOfPersons.get(J));
-        listOfAgeDifferences.add(listAdder(differenceInAgeCalculator));
+        listOfPairsOfPersons.add(addPairToList(differenceInAgeCalculator));
       }
     }
 
-    return listOfAgeDifferences.size() < 1 ? new DifferenceInAgeHolder(null, null)
-        : test(possibleOptions, listOfAgeDifferences);
+    return listOfPairsOfPersons.size() < 1 ? new PairOfPersons(null, null)
+        : findBiggestOrSmallestAgeGap(possibleOptions, listOfPairsOfPersons);
   }
 }

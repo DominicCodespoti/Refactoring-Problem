@@ -3,7 +3,7 @@ package TestSuite;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import Algorithm.DifferenceInAgeHolder;
+import Algorithm.PairOfPersons;
 import Algorithm.Finder;
 import Algorithm.Options;
 import Algorithm.Person;
@@ -34,7 +34,7 @@ public class FinderTests {
     List<Person> list = new ArrayList<>();
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
+    PairOfPersons result = finder.Find(Options.findClearestGap);
     assertNull(result.personOne);
     assertNull(result.personTwo);
   }
@@ -46,7 +46,7 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
+    PairOfPersons result = finder.Find(Options.findClearestGap);
 
     assertNull(result.personOne);
     assertNull(result.personTwo);
@@ -59,7 +59,7 @@ public class FinderTests {
     list.add(greg);
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
+    PairOfPersons result = finder.Find(Options.findClearestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(greg, result.personTwo);
@@ -73,7 +73,7 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findFurthestGap);
+    PairOfPersons result = finder.Find(Options.findFurthestGap);
 
     assertEquals(greg, result.personOne);
     assertEquals(mike, result.personTwo);
@@ -88,7 +88,7 @@ public class FinderTests {
     list.add(greg);
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findFurthestGap);
+    PairOfPersons result = finder.Find(Options.findFurthestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(sarah, result.personTwo);
@@ -104,7 +104,7 @@ public class FinderTests {
 
     Finder finder = new Finder(list);
 
-    DifferenceInAgeHolder result = finder.Find(Options.findNearestGap);
+    PairOfPersons result = finder.Find(Options.findClearestGap);
 
     assertEquals(sue, result.personOne);
     assertEquals(greg, result.personTwo);

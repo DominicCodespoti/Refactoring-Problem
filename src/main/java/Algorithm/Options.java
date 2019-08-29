@@ -1,5 +1,5 @@
 package Algorithm;
 
 public enum Options {
-  findNearestGap, findFurthestGap
+  findClearestGap, findFurthestGap
 }

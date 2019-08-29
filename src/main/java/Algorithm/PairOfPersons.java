@@ -1,12 +1,12 @@
 package Algorithm;
 
-public class DifferenceInAgeHolder {
+public class PairOfPersons {
 
   public Person personOne;
   public Person personTwo;
   long differenceInAge;
 
-  DifferenceInAgeHolder(Person personOne, Person personTwo){
+  PairOfPersons(Person personOne, Person personTwo){
     if (personOne != null && personTwo != null && personOne.getBirthDateTime() < personTwo.getBirthDateTime()) {
       this.personOne = personOne;
       this.personTwo = personTwo;
