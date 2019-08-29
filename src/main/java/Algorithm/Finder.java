@@ -9,10 +9,6 @@ public class Finder {
 
   private final List<Person> listOfPersons;
 
-  private boolean twoPersonDateComparator(Person personOne, Person personTwo) {
-    return personOne.getBirthDateTime() < personTwo.getBirthDateTime();
-  }
-
   private DifferenceInAgeHolder test(Options possibleOptions,
       List<DifferenceInAgeHolder> listOfAgeDifferences) {
     DifferenceInAgeHolder oldestPersonInList = listOfAgeDifferences.get(0);
@@ -31,6 +27,14 @@ public class Finder {
     return oldestPersonInList;
   }
 
+  private DifferenceInAgeHolder listAdder(DifferenceInAgeHolder differenceInAgeCalculator) {
+    differenceInAgeCalculator.differenceInAge =
+        differenceInAgeCalculator.personTwo.getBirthDateTime()
+            - differenceInAgeCalculator.personOne.getBirthDateTime();
+
+    return differenceInAgeCalculator;
+  }
+
   public Finder(List<Person> personList) {
     listOfPersons = personList;
   }
@@ -40,25 +44,13 @@ public class Finder {
 
     for (int I = 0; I < listOfPersons.size() - 1; I++) {
       for (int J = I + 1; J < listOfPersons.size(); J++) {
-
-        DifferenceInAgeHolder differenceInAgeCalculator = new DifferenceInAgeHolder();
-
-        if (twoPersonDateComparator(listOfPersons.get(I), listOfPersons.get(J))) {
-          differenceInAgeCalculator.personOne = listOfPersons.get(I);
-          differenceInAgeCalculator.personTwo = listOfPersons.get(J);
-        } else {
-          differenceInAgeCalculator.personOne = listOfPersons.get(J);
-          differenceInAgeCalculator.personTwo = listOfPersons.get(I);
-        }
-
-        differenceInAgeCalculator.differenceInAge =
-            differenceInAgeCalculator.personTwo.getBirthDateTime()
-                - differenceInAgeCalculator.personOne.getBirthDateTime();
-
-        listOfAgeDifferences.add(differenceInAgeCalculator);
+        DifferenceInAgeHolder differenceInAgeCalculator = new DifferenceInAgeHolder(
+            listOfPersons.get(I), listOfPersons.get(J));
+        listOfAgeDifferences.add(listAdder(differenceInAgeCalculator));
       }
     }
 
-    return listOfAgeDifferences.size() < 1 ? new DifferenceInAgeHolder() : test(possibleOptions, listOfAgeDifferences);
+    return listOfAgeDifferences.size() < 1 ? new DifferenceInAgeHolder(null, null)
+        : test(possibleOptions, listOfAgeDifferences);
   }
 }
