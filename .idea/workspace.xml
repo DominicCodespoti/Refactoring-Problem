@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bc71547-06e3-4cf0-baee-0cf1db508020" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,16 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="630">
               <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1079#1080#0" expanded="true" />
                 <element signature="e#1115#1116#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -120,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/DifferenceInAgeHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Options.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Finder.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -199,6 +207,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -326,14 +335,11 @@
       <workItem from="1566968922771" duration="2151000" />
       <workItem from="1566971395456" duration="232000" />
       <workItem from="1567035309534" duration="55000" />
-      <workItem from="1567036123919" duration="3182000" />
+      <workItem from="1567036123919" duration="3279000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FinderTests - 2019.08.29 at 09h 35m 24s.xml">
-      <configuration name="FinderTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FinderTests - 2019.08.29 at 09h 35m 39s.xml">
       <configuration name="FinderTests" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -361,9 +367,12 @@
     <history-entry file="FinderTests - 2019.08.29 at 10h 48m 52s.xml">
       <configuration name="FinderTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FinderTests - 2019.08.29 at 10h 50m 50s.xml">
+      <configuration name="FinderTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9824000" />
+    <option name="totallyTimeSpent" value="9921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +387,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26927784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26927784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -387,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,13 +462,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="630">
           <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
             <element signature="e#1115#1116#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
         </state>
       </provider>
     </entry>
